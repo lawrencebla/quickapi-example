@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example Page</title>
+	<style link="./css/main.css"></style>
+	<script src="./js/app.js"></script>
+</head>
+<body>
+	<div>Hello World~</div>
+	<image src="image/logo.png"></image>
+	<button onClick="showCliHelp()">CLI Help</button>
+	<ul id="cli_help" style="display:none;">
+		<li class="item"><span class="item-title">-p:</span> 设置服务器端口，默认为：<span class="item-default">8170</span></li>
+		<li class="item"><span class="item-title">-s:</span> 设置api server入口文件路径，默认为：<span class="item-default">./server/server.js</span></li>
+		<li class="item"><span class="item-title">-f:</span> 设置文件系统根目录，默认为：<span class="item-default">.</span></li>
+		<li class="item"><span class="item-title">-a:</span> 设置api根路径，默认为：<span class="item-default">/api</span></li>
+		<li class="item"><span class="item-title">-g:</span> 设置是否使用generator风格server，默认为：<span class="item-default">关闭</span></li>
+	</ul>
+</body>
+</html>
